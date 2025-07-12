@@ -21,7 +21,7 @@ Requires Python 3.6+.
 
 2. Run the script:
 
-```bash
+bash
 python main.py --input input.csv --output output.csv --header
 Arguments
 Argument	Description

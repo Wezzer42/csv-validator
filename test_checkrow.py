@@ -1,4 +1,4 @@
-from main import Checkrow
+from validate_row import Checkrow
 import pytest
 
 def test_valid_row():
