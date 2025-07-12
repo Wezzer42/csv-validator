@@ -21,8 +21,9 @@ Requires Python 3.6+.
 
 2. Run the script:
 
-bash
+'''bash
 python main.py --input input.csv --output output.csv --header
+''''
 Arguments
 Argument	Description
 --input	Path to the input CSV file
@@ -36,10 +37,9 @@ default_input.csv
 default_output.csv
 
 ## Example Run
-bash
-Copy
-Edit
+'''bash
 python main.py --input users.csv --output clean_users.csv --header
+'''
 After execution:
 
 All valid rows will be written to clean_users.csv.
@@ -51,10 +51,9 @@ This project includes tests written with pytest.
 
 To run tests:
 
-bash
-Copy
-Edit
+'''bash
 pytest
+'''
 The tests cover:
 
 A valid row
@@ -72,12 +71,11 @@ Row with extra columns
 ##  Example Logs
 Example contents of error_logs.log:
 
-less
-Copy
-Edit
+'''less
 In row 3 has errors: ['INVALID_EMAIL']
 In row 5 has errors: ['NAME_INVALID', 'VALUE_ERROR']
-🛠 Possible Improvements
+'''
+## Possible Improvements
 Add support for different delimiters (e.g., ;)
 
 Allow configuration via YAML or JSON
